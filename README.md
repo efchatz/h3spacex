@@ -1,7 +1,7 @@
 # H3SpaceX
 H3SpaceX library is manipulated version of [quic-go](https://github.com/quic-go/quic-go) to 
 enable the Single Packet Attack (Last Frame Synchronization) in HTTP/3 (QUIC). 
-This library was part of an academic research with title of **Exploiting Race Conditions in Web Applications with HTTP/3**.
+This library was part of an academic research with title of [QUIC-er Races: HTTP/3 won’t save you from TOCTOU vulnerabilities](https://link.springer.com/article/10.1007/s10207-026-01258-6).
 
 ## Library Usage (how to exploit last frame synchronization - also known as single packet attack on HTTP/3)
 There are two methods for exploiting last frame synchronization:
